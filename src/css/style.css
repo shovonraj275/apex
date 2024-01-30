@@ -44,7 +44,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 27px 100px;
+    padding: 27px 130px;
     padding-bottom: 0;
 }
 .left_nav{
@@ -82,22 +82,69 @@ I.fa{
 #low_header .flex_container_01{
     display: flex;
     justify-content: center;
-
+    margin-top: 15px;
 }
 #low_header .flex_01{
      border: 2px Solid #fff;
+     border-radius: 5%;
      color: #fff;
      padding: 10px 16px ;
      margin: 0 10px ;
 }
-#low_header .flex_01 a{ 
+#low_header a .flex_01{ 
     color: #fff;
     margin: 0;
     padding: 0px 100px;
 }
+#low_header a:hover{
+    background: #fff;
+    color: #000;
+}
 #intto{
     background-color: #191919;
+    padding: 0  130px;
+    position: relative;
+    height: 300px;
 }
 #intto h1{
-    
+    color: #ffff;
+    padding-top:20px;
+    font-size: 35px;
+}
+p{
+    color: #fff;    
+}
+#intto .flex_container_01{
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+}
+#intto .flex_01{
+    border: 2px Solid #fff;
+    border-radius: 5%;
+    color: #fff;
+    padding: 10px 40px ; 
+    margin: 0 10px ;
+}
+#intto .flex_01:hover{
+    color: #000;
+    background-color: #fff;
+}
+#intto img{ 
+    width: 550px;
+    height: 250px;
+    position: absolute; 
+    z-index: 0; 
+    top: 200px;   
+    left: 130px;
+    z-index: 2;
+}
+#intto video{
+    height: 913px;
+    width: 550px;
+    position: absolute;
+    right: 210px;
+    top: -258px;
+    z-index: 1;
+
 }
