@@ -104,7 +104,7 @@ I.fa{
     background-color: #191919;
     padding: 0  130px;
     position: relative;
-    height: 300px;
+    height: 500px;
 }
 #intto h1{
     color: #ffff;
@@ -131,20 +131,54 @@ p{
     background-color: #fff;
 }
 #intto img{ 
-    width: 550px;
-    height: 250px;
-    position: absolute; 
-    z-index: 0; 
-    top: 200px;   
+    width: 43%;
+    height: 80%;
+    position: absolute;
+    top: 200px;
     left: 130px;
     z-index: 2;
 }
 #intto video{
-    height: 913px;
-    width: 550px;
+    height: 663px;
+    width: 50%;
     position: absolute;
-    right: 210px;
-    top: -258px;
+    right: 11%;
+    top: -8%;
     z-index: 1;
 
+}
+#slider_01{
+    padding: 200px 100px 0 100px;
+}
+.items_sirder{
+    margin: 10px;
+}
+.items_sirder img{
+     width: 100%;
+}
+#slider_01 p{
+    color: #000;
+}
+
+.slider_02{
+
+}
+.slider_items{
+
+}
+.slider_items{
+    background-image: url("../img/02\ \(1\).jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.items_01_re{
+    position: relative;
+}
+.items_01_ab{
+    position: absolute;
+   right: 0;
+   top: 350px~;
 }
