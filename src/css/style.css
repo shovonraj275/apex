@@ -179,6 +179,31 @@ p{
 }
 .items_01_ab{
     position: absolute;
-   right: 0;
-   top: 350px~;
+   right: 70px;
+   top: 350px;
+
+}
+.items_01_ab h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: right;
+    color: #fff; 
+}
+.items_01_ab p {
+    font-size: 20px;
+    text-align: right;
+    color: #fff;    
+}
+.items_01_ab .link{
+    text-align: right;
+    margin-top: 30px;
+}
+.items_01_ab a{
+    font-size: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    padding: 4px 31px;
+    text-align: right;
+    color: #000;
+    background-color: #ffff;~
 }
