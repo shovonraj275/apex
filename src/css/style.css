@@ -90,6 +90,7 @@ I.fa{
      color: #fff;
      padding: 10px 16px ;
      margin: 0 10px ;
+    text-transform: capitalize;    
 }
 #low_header a .flex_01{ 
     color: #fff;
@@ -125,6 +126,7 @@ p{
     color: #fff;
     padding: 10px 40px ; 
     margin: 0 10px ;
+    text-transform: capitalize;
 }
 #intto .flex_01:hover{
     color: #000;
@@ -167,43 +169,82 @@ p{
 
 }
 .slider_items{
-    background-image: url("../img/02\ \(1\).jpg");
+    
     width: 100%;
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
    
 }
-.items_01_re{
+.bg_img_01{
+    background-image: url("../img/02\ \(1\).jpg");
+}
+.bg_img_02{
+    background-image: url("../img/02\ \(2\).jpg");
+}
+.bg_img_03{
+    background-image: url("../img/02\ \(2\).png");
+}
+.bg_img_04{
+    background-image: url("../img/02\ \(4\).jpg");
+}
+.bg_img_05{
+    background-image: url("../img/02\ \(8\).jpg");
+}
+.bg_img_06{
+    background-image: url("../img/02\ \(9\).jpg");
+}
+
+.bg_img_02 .items_ab p,
+.bg_img_02 .items_ab h1,
+.bg_img_02 .items_ab a,
+.bg_img_04 .items_ab p,
+.bg_img_04 .items_ab h1,
+.bg_img_04 .items_ab a{
+    color: #000;
+}
+.bg_img_03 .items_ab{
+    position: absolute;
+    right: 70px;
+    top: 300px !important;
+}
+.bx-wrapper .bx-pager{
+    display: none;  
+}
+.bx-wrapper {
+    margin-bottom: 0;
+}
+.items_re{
     position: relative;
 }
-.items_01_ab{
+.items_ab{
     position: absolute;
-   right: 70px;
-   top: 350px;
+    right: 70px;
+    top: 350px;
 
 }
-.items_01_ab h1{
+.items_ab h1{
     margin-bottom: 20px;
     font-size: 40px;
     text-align: right;
     color: #fff; 
+    text-transform: capitalize;
 }
-.items_01_ab p {
+.items_ab p {
     font-size: 20px;
     text-align: right;
     color: #fff;    
 }
-.items_01_ab .link{
+.items_ab .link{
     text-align: right;
     margin-top: 30px;
 }
-.items_01_ab a{
+.items_ab a{
     font-size: 25px;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 4px 31px;
     text-align: right;
     color: #000;
-    background-color: #ffff;~
+    background-color: #ffff;
 }
