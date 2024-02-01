@@ -137,14 +137,14 @@ p{
     height: 80%;
     position: absolute;
     top: 200px;
-    left: 130px;
+    left: 170px;
     z-index: 2;
 }
 #intto video{
     height: 663px;
     width: 50%;
     position: absolute;
-    right: 11%;
+    right: 7%;
     top: -8%;
     z-index: 1;
 
@@ -168,13 +168,11 @@ p{
 .slider_items{
 
 }
-.slider_items{
-    
+.slider_items{ 
     width: 100%;
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 .bg_img_01{
     background-image: url("../img/02\ \(1\).jpg");
@@ -248,3 +246,96 @@ p{
     color: #000;
     background-color: #ffff;
 }
+section#beg_area{
+    padding: 0 100px;
+    padding-top: 50px;
+}
+section#beg_area h1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    position: relative;
+}
+section#beg_area h1::before{
+    content: "";
+    position: absolute;
+    width: 37.8%;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+    top: 19px;
+}
+section#beg_area h1::after{
+    content: "";
+    position: absolute;
+    width: 37.7%;
+    height: 2px;
+    background-color: #000;
+    top: 15px;
+    right: 0;
+
+}
+.border_01{
+    position: relative;
+}
+.border_01::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+    top: -19px;
+    z-index: 1;
+}
+.border_01::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+    top: 193px;
+    right: -74px;
+    z-index: 1;
+   
+}
+.border_02{
+   position: absolute;
+}
+.border_02::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+    top: -19px;
+    right: 0;
+    z-index: 1;
+}
+section#beg_area img{}
+section#beg_area h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+section#beg_area h5{
+    text-align: center;
+    margin-top: 15px; 
+}
+i.fa.fa-dollar{
+    color: #000;
+}
+#ad{
+    margin:  10px 100px;
+}
+#ad .gird{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px 100px;
+}
+#ad .gird .gird_items{
+
+}
+#ad .gird .gird_items img{
+    width: 100%;~
+}
+#ad{}
