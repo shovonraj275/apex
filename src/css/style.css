@@ -330,8 +330,8 @@ h4::before{
     height: 100px;
     background-color: #000;
     z-index: 1;
-    bottom: 4px;
-    left: 0;
+    bottom: 0px;
+    right: 0;
 }
  
 
@@ -368,11 +368,23 @@ i.fa.fa-dollar{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 15px 100px;
+    gap: 20px;
 }
 #ad .gird .gird_items{
 
 }
 #ad .gird .gird_items img{
-    width: 100%;~
+    width: 100%;
 }
-#ad{}
+#ad p{
+    color: #000;
+}
+#ad .ad_po_r{
+    position: relative;
+}
+#ad .ad_po_a{
+    position: absolute;
+    background-color: #fff;
+    margin: 0 40px;
+    bottom: -15px;
+}
