@@ -436,54 +436,62 @@ i.fa.fa-angle-left {
     text-transform: capitalize;
 }
 #footer{
-    text-align: center;
-    /* margin: 70px; */
-    padding: 20px 0;
+       text-align: center;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    margin: 20px 0;
    
+}
+.border_tb{
+
 }
 #footer .grid{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 0 130px;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0px 100px;
+  
+}
+#footer .grid_content{
+  border-right: 1px solid #E5E5E5;
     
 }
-#footer .gird_content{
-    padding: 20px; 
-   
+.grid_content.icon{
+    border-right: none !important;
 }
-#footer img{ 
-    width: 100px;
-    height: 100px;
+#footer img{
+    width: 50px;
+    height: 50px;
+    padding-top: 14px;
 }
-
-img .car{
-
-}
-
-#footer .last_grid{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 20px;
-    justify-content: space-between;
-    
-}
-#footer .last_grid img{
-   width: 100px;
-   height: 100px;
-}
-#footer h2{
-    font-size: 30px;
-    margin-top: 20px;
+#footer h2 {
+    color: #000;
+    margin: 10px 0;
 }
 #footer p{
     color: rgb(117, 117, 117);
-    padding-top: 20px;
 }
-#footer a{
-    color: #000;
+#footer .icon img{
+    width: 50px;
+    height: 50px;
+}
+#footer .last_grid{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+}
+.fotter_ab{
+    padding-bottom: 15px;
+}
+.fotter_ab a{
+   text-decoration: underline;
+   color: #000;
+}
+.fotter_ab a:hover{
+   text-decoration: underline;
+   color:  rgb(117, 117, 117);
+}
 
-}
-#footer .border_tb{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+#footer .content_mragin{
+    padding-top: 20px;
 }
