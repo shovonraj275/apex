@@ -425,8 +425,65 @@ i.fa.fa-angle-left {
     justify-content: space-between;
     padding: 0;   
 } 
+#tanding .border_tb{
+    border-top: 1px solid gray;
+    margin-top: 40px;
+    border-bottom: 1px solid gray;
+}
 #tanding .flex{}
 #tanding .left_contian{
     font-size: 30px;
     text-transform: capitalize;
+}
+#footer{
+    text-align: center;
+    /* margin: 70px; */
+    padding: 20px 0;
+   
+}
+#footer .grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0 130px;
+    
+}
+#footer .gird_content{
+    padding: 20px; 
+   
+}
+#footer img{ 
+    width: 100px;
+    height: 100px;
+}
+
+img .car{
+
+}
+
+#footer .last_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+#footer .last_grid img{
+   width: 100px;
+   height: 100px;
+}
+#footer h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#footer p{
+    color: rgb(117, 117, 117);
+    padding-top: 20px;
+}
+#footer a{
+    color: #000;
+
+}
+#footer .border_tb{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
