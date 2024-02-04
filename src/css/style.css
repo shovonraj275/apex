@@ -756,6 +756,28 @@ i.fa.fa-angle-left {
     #tanding {
         padding: 20px;
     }
+    .right_contian {
+        display: none;
+    }
+    #tanding .left_span {
+        display: block;
+    }
+    #footer .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 10px ;
+    }
+    .fotter_ab{
+       display: none;
+    }
+    #lower_fotter {
+        padding: 20px;
+    }
+    #lower_fotter .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 25px;
+    }
 }
   
   /* Small devices (landscape phones, 576px and up) */
