@@ -73,6 +73,9 @@ I.fa{
     padding-left: 25px;
     color: #fff;
 }
+.res_mo{
+    display: none;
+}
 #low_header h1{
     margin-top: 70px; 
     text-align: center;
@@ -532,3 +535,108 @@ i.fa.fa-angle-left {
     padding-bottom: 5px;
    
 }
+/* responsive */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    #top_header {
+      display: none;
+    }
+    #top_heade img {
+        width: 50%;
+    }
+    .res_mo{
+        display: block;
+    }
+    .res_mo .flex_cotainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .res_mo .mt{
+       
+        padding-top: 25px;
+    }
+    .flex_container,
+    .flex_container_01{
+        display: none;
+    }
+    #low_header .flex_container_01{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    #low_header .flex_01 {
+        border: 2px Solid #fff;
+        border-radius: 5%;
+        color: #fff;
+        padding: 10px 16px;
+        margin: 2px 25%;
+        text-transform: capitalize;
+        width: 50%;
+    }
+    #low_header h1 {
+        margin-top: 5%;
+        text-align: center;
+        color: #FFF;
+        text-transform: capitalize;
+    }
+    #intto {
+        background-color: #191919;
+        padding: 0  20px;
+        position: relative;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    #intto .flex_container_01 {
+        display: flex;
+        justify-content: start;
+        margin-top: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+    #intto video {
+        height: 663px;
+        width: 81%;
+        position: absolute;
+        right: 9%;
+        top: -34%;
+        z-index: 1;
+    }
+    
+    #intto h1 {
+        color: #ffff;
+        padding-top: 240px;
+        font-size: 30px;
+    }
+    #intto img {
+        width: 100%;
+        margin-top: 13px;
+        position: sticky;
+        height: 30%;
+    }
+    #intto .flex_01 {
+        border: 2px Solid #fff;
+        border-radius: 5%;
+        color: #fff;
+        padding: 10px 40px;
+        margin: 4px 10px;
+        text-transform: capitalize;
+    }
+
+}
+  
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+  
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+  
+  /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+  
+
+/* responsive */
