@@ -69,6 +69,19 @@ a{
     display: flex;
     justify-content: end;
 }
+.ic_po_re{
+    position: relative;
+}
+.ic_po_ab_cart,
+.ic_po_ab_fav{
+    position: absolute;
+    top: -22px;
+    left: 5px;
+    background: rgba(0, 0, 0, 0.753);
+    padding: 5px;
+    z-index: 999;
+    border-radius: 50%;
+}
 I.fa{
     padding-left: 25px;
     color: #fff;
@@ -163,6 +176,18 @@ p{
 }
 #slider_01 p{
     color: #000;
+    padding-bottom: 10px;
+}
+.btn_crat,
+.btn_fav{
+    border: 2px Solid #fff;
+    border-radius: 5%;
+    color: #fff;
+    padding: 10px 14px;
+    margin: 0 10px;
+    text-transform: capitalize;
+    background: #000;
+    cursor: pointer;
 }
 
 .slider_02{
