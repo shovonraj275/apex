@@ -1,3 +1,23 @@
+
+
+// let cratval = 0;
+// function addcart(){
+//     cratval =cratval+1;
+//     document.querySelector('.ic_po_ab_cart').innerHTML =cratval;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 let val= 0;
 function cart(){
     val= val + 1;
